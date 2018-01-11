@@ -41,7 +41,7 @@ To smooth out the lane detection for moving images, a second stage of averaging 
 ![png](report_images/images_lines_detected.png)
 
 ## Processed video
-![gif](test_videos_output/solidWhiteRight.gif)
+![gif](report_images/solidWhiteRight.gif)
 
 ## Reflection
 ### Shortcomings with the current pipeline
