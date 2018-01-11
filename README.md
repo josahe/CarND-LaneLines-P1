@@ -1,4 +1,4 @@
-# Simple Lane Line Detection
+# Simple Lane Detection
 > An image processing pipeline to find lane lines on a road
 
 ## INTRODUCTION
