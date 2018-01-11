@@ -1,20 +1,31 @@
+# Simple Lane Line Detection
+> An image processing pipeline to find lane lines on a road
 
-# **Finding Lane Lines on the Road** 
+## INTRODUCTION
+In this project, I use Python3 and OpenCV to identify lane lines in images. I use techniques such as Canny edge detection and Hough transformation to develop a simple pipeline that can be used on still images or a video stream. A more detailed writeup is included in this project.
 
-A compute vision pipeline for finding lane lines in still or moving images
+This project was undertaken as part of the [Udacity Self-Driving Car NanoDegree](https://eu.udacity.com/course/self-driving-car-engineer-nanodegree--nd013).
 
----
+## HOW TO USE
 
-[//]: # (Image References)
-[image]: ./test_images_output/5_overlayed.jpg "detected_lane_lines"
-![alt text][image]
+### Project dependencies
+You can follow the guide explained here to help setup a working environment.
+* https://github.com/udacity/CarND-Term1-Starter-Kit
 
----
+You should be fine so long as you have installed Python3.5+ and OpenCV.
 
-## Getting Started
+### Jupyter Notebooks
+The included notebooks demonstrate how to use the project code.
+* [simple_pipeline.ipynb](simple_pipeline.ipynb)
+* [simple_pipeline_video.ipynb](simple_pipeline_video.ipynb)
 
-There is an included [environment.yml](environment.yml) file that can be used with Anaconda to set up the correct environment for running the code in the [Ipython notebook](Finding%20Lane%20Lines%20on%20the%20Road.ipynb)
+## RELEVANT LINKS
 
-## More Info
+#### Project writeup
+* [writeup.md](writeup.md)
 
-Read the [writeup](writeup_report.md) for more information
+#### Original project repo
+* https://github.com/udacity/CarND-LaneLines-P1
+
+## RELEVANT FILES
+* Pipeline implementation: [draw_lines.py](draw_lines.py)
