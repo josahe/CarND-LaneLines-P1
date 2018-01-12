@@ -20,11 +20,11 @@ The pipeline is first developed on a selection of still images.
 
 My pipeline consists of 6 steps:
 1. Conversion to grayscale
-* Gaussian blurring to reduce noise that could result in unwanted edges
-* Canny edge detection
-* Masking to leave only the edge-detected lane lines
-* Hough transformation to detect lines (drawn in red)
-* Overlaying the detected lines on the original image
+2. Gaussian blurring to reduce noise that could result in unwanted edges
+3. Canny edge detection
+4. Masking to leave only the edge-detected lane lines
+5. Hough transformation to detect lines (drawn in red)
+6. Overlaying the detected lines on the original image
 
 ![png](report_images/image_pipeline.png)
 
